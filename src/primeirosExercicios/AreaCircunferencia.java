@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AreaCircunferencia {
 
 	public static double calcAreaCircunf(double raio) {
-		double area = Math.PI * r * r;
+		double area = Math.PI * raio * raio;
 		
 		return area;
 	}
