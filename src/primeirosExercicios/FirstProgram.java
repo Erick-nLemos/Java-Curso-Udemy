@@ -27,7 +27,6 @@ public class FirstProgram {
 		velMedia = read.nextDouble();
 		
 		String resultFormat = String.format("%.3f", consumo.consumoGasolina(tempGasto, velMedia));
-		
 		System.out.println("Foi gasto nesta viagem " + resultFormat + " Litos de Gasolina.");
 		
 	}
