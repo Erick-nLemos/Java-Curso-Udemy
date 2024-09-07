@@ -12,13 +12,13 @@ public class DesafioConversao {
 		System.out.print("Digite o nome do funcionário: ");
 		nameFunc = read.nextLine();
 		
-		System.out.println("Digite o primeiro salário: ");
+		System.out.print("\nDigite o primeiro salário: ");
 		sal1 = read.next().replace(",", ".");
 		
-		System.out.println("Digite o segundo salário: ");
+		System.out.print("\nDigite o segundo salário: ");
 		sal2 = read.next().replace(",", ".");
 		
-		System.out.println("Digite o terceiro salário: ");
+		System.out.print("\nDigite o terceiro salário: ");
 		sal3 = read.next().replace(",", ".");
 		
 		read.close();
