@@ -1,4 +1,4 @@
-package learningWrappers;
+package operadores;
 
 public class DesafioOperadoresLogicos {
 
@@ -9,7 +9,7 @@ public class DesafioOperadoresLogicos {
 		boolean job1 = false, job2 = false;
 		
 		
-		if(job1 & job2) {
+		if(job1 && job2) {
 			System.out.println("OS 2 trabalhos deram certo, vou comprar uma TV de 50 polegadas e um sorvete.");
 		}
 		else if(job1 | job2) {
