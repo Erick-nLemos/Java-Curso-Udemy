@@ -7,11 +7,13 @@ public class DesafioDiaSemana {
 	public static void main(String[] args) {
 		Scanner read = new Scanner(System.in);
 		String dia;
-		int posicaoSemana;
+		int posicaoSemana, cont = 1;
 		
 		System.out.print("Digite o dia da semana: ");
 		dia = read.next();
 		read.close();
+		
+		
 		
 		if(dia.equalsIgnoreCase("Domingo")) {
 			posicaoSemana = 1;
@@ -21,7 +23,7 @@ public class DesafioDiaSemana {
 			posicaoSemana = 2;
 			System.out.printf("É o %dº dia da semana\n", posicaoSemana);
 		}
-		else if(dia.equalsIgnoreCase("Terça")) {
+		else if(dia.equalsIgnoreCase("Terça") || dia.equalsIgnoreCase("Terca")) {
 			posicaoSemana = 3;
 			System.out.printf("É o %dº dia da semana\n", posicaoSemana);
 		}
@@ -37,7 +39,7 @@ public class DesafioDiaSemana {
 			posicaoSemana = 6;
 			System.out.printf("É o %dº dia da semana\n", posicaoSemana);
 		}
-		else if(dia.equalsIgnoreCase("Sábado")) {
+		else if(dia.equalsIgnoreCase("Sábado") || dia.equalsIgnoreCase("Sabado")) {
 			posicaoSemana = 7;
 			System.out.printf("É o %dº dia da semana\n", posicaoSemana);
 		}
