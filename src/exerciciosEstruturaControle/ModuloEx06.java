@@ -31,7 +31,7 @@ public class ModuloEx06 {
 			}
 			else {
 				System.out.println("-=-=-=--=-=-=-=-=-==-=-=-=-=-=-=");
-				System.out.println("	Parabéns! Você acertou!!	");
+				System.out.println(" Parabéns! Você acertou!!	");
 				System.out.println("-=-=-=--=-=-=-=-=-==-=-=-=-=-=-=");
 				break;
 			}
