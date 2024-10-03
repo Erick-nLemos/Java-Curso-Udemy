@@ -23,10 +23,10 @@ public class ModuloEx02 {
 		int ano = read.nextInt();
 		
 		if(AnoBissexto.calcAnoBissexto(ano)) {
-			System.out.printf("Ano %d é Bissexto", ano);
+			System.out.printf("Ano %d é Bissexto.", ano);
 		}
 		else {
-			System.out.printf("Ano %d não é Bissexto", ano);
+			System.out.printf("Ano %d não é Bissexto.", ano);
 		}
 		
 		read.close();
